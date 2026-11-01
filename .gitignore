@@ -1,15 +1,24 @@
-# Dependencies and build output
+# Frontend and Backend dependencies
 node_modules/
-frontend/node_modules/
-backend/node_modules/
-frontend/dist/
 
-# Local secrets/config (keep .env.example files tracked)
+# Environment variables
 .env
 .env.*
-!frontend/.env.example
-!backend/.env.example
+!.env.example
 
-# OS/editor
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Editor files
 .vscode/
+.idea/
