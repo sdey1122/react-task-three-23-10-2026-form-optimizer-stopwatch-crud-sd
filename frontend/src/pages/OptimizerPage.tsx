@@ -276,11 +276,7 @@ export default function OptimizerPage() {
                 <InfoRow label="Discount" value={`${form.discount}%`} />
               </Stack>
 
-              <Chip
-                color="success"
-                label="useMemo · useCallback"
-                sx={{ mt: 3 }}
-              />
+              <Chip color="success" sx={{ mt: 3 }} />
             </CardContent>
           </Card>
         </Grid>
