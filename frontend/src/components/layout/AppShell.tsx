@@ -55,7 +55,6 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
       <Container maxWidth="lg" sx={{ py: 4 }}>
         {children}
       </Container>
-      <Box className="footer">Built with React · TypeScript · MUI · Axios</Box>
     </>
   );
 }

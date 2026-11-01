@@ -84,7 +84,7 @@ export default function OptimizerPage() {
       <PageTitle
         eyebrow="PART A · useMemo + useCallback"
         title="Large Form Optimizer"
-        desc="A multi-field form with memoized calculations and stable event handlers."
+        desc="A multi-field form with memoized calculations."
       />
 
       <Grid container spacing={3}>

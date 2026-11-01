@@ -118,7 +118,7 @@ export default function StudentListPage({
       <PageTitle
         eyebrow="PART C · CRUD + AXIOS"
         title="Student management"
-        desc="Connected to your Express + MongoDB Student API."
+        desc="Connected to Express + MongoDB Student API."
         action={
           <Button
             variant="contained"

@@ -1,6 +1,10 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Typography, Box, Paper, Button, Stack } from "@mui/material";
-import { PlayArrowRounded, PauseRounded, RestartAltRounded } from "@mui/icons-material";
+import {
+  PlayArrowRounded,
+  PauseRounded,
+  RestartAltRounded,
+} from "@mui/icons-material";
 import PageTitle from "../components/common/PageTitle";
 export default function StopwatchPage() {
   const [elapsed, setElapsed] = useState(0),
@@ -50,7 +54,7 @@ export default function StopwatchPage() {
       <PageTitle
         eyebrow="PART B · useRef"
         title="Stopwatch"
-        desc="The interval ID lives in a ref, so renders don't reset the timer."
+        desc="Stopwatch using useRef."
       />
       <Paper className="timer-panel">
         <Box className="timer-orb">
@@ -89,9 +93,6 @@ export default function StopwatchPage() {
             Reset
           </Button>
         </Stack>
-        <Typography color="text.secondary" textAlign="center" mt={3}>
-          useRef stores timer ID and accumulated elapsed time between renders.
-        </Typography>
       </Paper>
     </>
   );
